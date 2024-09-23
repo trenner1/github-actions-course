@@ -10,12 +10,12 @@ jobs:
         run: echo "Hello World"
 
   echo-goodbye:
-    runs-on: ubuntu-latest
-    steps:
-      - name: I will pass
-        run: |
-          echo "I will pass"
-          exit 0
-      
-      - name: Say echo-goodbye
-        run: echo "Goodbye"
+        runs-on: ubuntu-latest
+        steps:
+          - name: I will pass
+            run: |
+              echo "I will pass"
+              exit 0
+          
+          - name: Say echo-goodbye
+            run: echo "Goodbye"
